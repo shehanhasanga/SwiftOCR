@@ -11,6 +11,9 @@
 		BE7608F627CD285700044EBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7608F527CD285700044EBE /* ContentView.swift */; };
 		BE7608F827CD285900044EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7608F727CD285900044EBE /* Assets.xcassets */; };
 		BE7608FB27CD285900044EBE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7608FA27CD285900044EBE /* Preview Assets.xcassets */; };
+		BE76090227CD288300044EBE /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE76090127CD288300044EBE /* ScanData.swift */; };
+		BE76090427CD28E200044EBE /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE76090327CD28E200044EBE /* ScannerView.swift */; };
+		BE76090627CD2EF800044EBE /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE76090527CD2EF800044EBE /* TextRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BE7608F527CD285700044EBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE7608F727CD285900044EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE7608FA27CD285900044EBE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE76090127CD288300044EBE /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		BE76090327CD28E200044EBE /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		BE76090527CD2EF800044EBE /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 				BE7608F527CD285700044EBE /* ContentView.swift */,
 				BE7608F727CD285900044EBE /* Assets.xcassets */,
 				BE7608F927CD285900044EBE /* Preview Content */,
+				BE76090127CD288300044EBE /* ScanData.swift */,
+				BE76090327CD28E200044EBE /* ScannerView.swift */,
+				BE76090527CD2EF800044EBE /* TextRecognizer.swift */,
 			);
 			path = SampleOCR;
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			files = (
 				BE7608F627CD285700044EBE /* ContentView.swift in Sources */,
 				BE7608F427CD285700044EBE /* SampleOCRApp.swift in Sources */,
+				BE76090627CD2EF800044EBE /* TextRecognizer.swift in Sources */,
+				BE76090427CD28E200044EBE /* ScannerView.swift in Sources */,
+				BE76090227CD288300044EBE /* ScanData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +283,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SampleOCR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "use this camerafor taking images ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +312,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SampleOCR/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "use this camerafor taking images ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
